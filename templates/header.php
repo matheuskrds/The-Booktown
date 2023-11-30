@@ -34,7 +34,7 @@ $userData = $userController->verifyToken(false);
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Booktown</title>
   <!-- Incluir o favicon -->
-  <link rel="shortcut icon" href="<?= $BASE_URL ?>img/A_img/logo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="<?= $BASE_URL ?>img/logo.png" type="image/x-icon">
   <!-- CSS do bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -57,7 +57,7 @@ $userData = $userController->verifyToken(false);
       <div class="container ">
         <!-- marca da loja -->
         <a class="navbar-brand" href="<?= $BASE_URL ?>index.php"><img class="logonav"
-            src="<?= $BASE_URL ?>img/A_img/logo.png" alt=""></a>
+            src="<?= $BASE_URL ?>img/logo.png" alt=""></a>
         <div id="navbar-items">
           <!-- insere a div para limitar o espaço -->
           <div style="margin-right:100px"></div>

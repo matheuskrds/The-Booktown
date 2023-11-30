@@ -38,7 +38,7 @@
 
                 <!-- Imagem -->
                 <div class="col-6 slide_respon">
-                    <img src="img/A_img/joyboy_volta.jpeg" style="width: 582px;" class="d-block" alt="...">
+                    <img src="img/joyboy_volta.jpeg" style="width: 582px;" class="d-block" alt="...">
                 </div>
             </div>
         </div>
@@ -47,7 +47,7 @@
         <div class="carousel-item item-line-cont-2">
             <div class="row justify-space-around item-carro-2 item-line-2" id="item-line2">
                 <div class="col-4 offset-md-1 carro-img carro-2 d-flex align-items-center slide_respon">
-                    <img src="img/A_img/Capa_1.jpeg" class="d-block w-100" alt="...">
+                    <img src="img/Capa_1.jpeg" class="d-block w-100" alt="...">
                 </div>
 
                 <div class="col col-6 justify-content-center mt-5" id="novos-cap">
@@ -74,12 +74,12 @@
 
                 <!-- Primeira Imagem -->
                 <div class="col-4 offset-md-2 carro-img d-flex align-items-center">
-                    <img src="img/A_img/fundo_banner1.jpeg" class="d-block w-100" alt="...">
+                    <img src="img/fundo_banner1.jpeg" class="d-block w-100" alt="...">
                 </div>
 
                 <!-- Segunda Imagem -->
                 <div class="col-4 carro-img d-flex align-items-center">
-                    <img src="img/A_img/fundo_banner2.jpeg" class="d-block w-100" alt="...">
+                    <img src="img/fundo_banner2.jpeg" class="d-block w-100" alt="...">
                 </div>
             </div>
         </div>
@@ -107,17 +107,17 @@
       <div class="row justify-content-around">
         <div class="col-12 primary-bg-color" id="mini-banner-1">
           <h2>Lançamentos</h2>
-          <img src="img/A_img/mini-banner-1-removebg-preview.png" alt="Lançamentos">
+          <img src="img/mini-banner-1-removebg-preview.png" alt="Lançamentos">
           <a style="color: black; text-decoration: none;" href="#">Ver mais</a>
         </div>
         <div class="col-12 primary-bg-color" id="mini-banner-2">
           <h2>Best Sellers</h2>
-          <img src="img/A_img/mini-banner-2-removebg-preview.png" alt="best sellers">
+          <img src="img/mini-banner-2-removebg-preview.png" alt="best sellers">
           <a style="color: black; text-decoration: none;" href="#">Ver mais</a>
         </div>
         <div class="col-12 primary-bg-color" id="mini-banner-3">
           <h2 class="secondary-color">Classicos</h2>
-          <img src="img/A_img/mini-banner-3-removebg-preview.png" alt="classicos">
+          <img src="img/mini-banner-3-removebg-preview.png" alt="classicos">
           <a style="color: black; text-decoration: none;" href="#">Ver mais</a>          
         </div>
       </div>
@@ -136,7 +136,7 @@
  <div class="col-12 col-md-3">
  <!-- Coluna para o primeiro produto -->
    <div class="card light-color">
-     <img src="img/A_img/cora.jpg" class="card-img-top img-fluid" alt="Livro 1">
+     <img src="img/cora.jpg" class="card-img-top img-fluid" alt="Livro 1">
      <!-- Imagem do produto -->
      <div class="card-body">
      <!-- Corpo do cartão -->
@@ -153,7 +153,7 @@
  </div>
  <div class="col-12 col-md-3">
    <div class="card light-color">
-     <img src="img/A_img/biblioteca.jpg" class="card-img-top img-fluid" alt="Livro 2">
+     <img src="img/biblioteca.jpg" class="card-img-top img-fluid" alt="Livro 2">
      <div class="card-body">
        <p class="card-category secondary-color">Livro</p>
        <h5 class="card-title primary-color">A biblioteca da meia noite</h5>
@@ -164,7 +164,7 @@
  </div>
  <div class="col-12 col-md-3">
    <div class="card light-color">
-     <img src="img/A_img/opequenoprincipe-removebg-preview.png" class="card-img-top img-fluid" alt="Livro 3">
+     <img src="img/opequenoprincipe-removebg-preview.png" class="card-img-top img-fluid" alt="Livro 3">
      <div class="card-body">
        <p class="card-category secondary-color">Livro</p>
        <h5 class="card-title primary-color">O pequeno principe</h5>
@@ -175,7 +175,7 @@
  </div>
  <div class="col-12 col-md-3">
    <div class="card light-color">
-     <img src="img/A_img/jamboeditora-crianca-amaldicoada.png" class="card-img-top img-fluid" alt="Livro 4">
+     <img src="img/jamboeditora-crianca-amaldicoada.png" class="card-img-top img-fluid" alt="Livro 4">
      <div class="card-body">
        <p class="card-category secondary-color">Livro</p>
        <h5 class="card-title primary-color">HP e a criança amaldiçoada</h5>
@@ -207,7 +207,7 @@
    </div>
    <!-- Coluna para a imagem -->
    <div class="col-12 col-md-4">
-       <img class="livroinf" src="img/A_img/livro-infantil.jpg" alt="Relógio 6">
+       <img class="livroinf" src="img/livro-infantil.jpg" alt="Relógio 6">
        <!-- Imagem do produto -->
    </div>
 </div>
@@ -223,7 +223,7 @@
 <div class="row">
     <!-- Linha que contém duas colunas -->
     <div class="col-12 col-md-3 d-none d-md-flex" id="products-banner">
-    <img class="imglivro img-fluid" src="img/A_img/img3.jpg" alt="" class="img-livro">
+    <img class="imglivro img-fluid" src="img/img3.jpg" alt="" class="img-livro">
         <!-- Coluna para o banner de produtos (ATENÇÃO! visível apenas em desktop) -->
         <p class="secondary-color" style="color: white;">Os</p>
         <!-- Texto secundário -->
@@ -242,7 +242,7 @@
                 <!-- Coluna para um produto -->
                 <div class="card">
                     <!-- Cartão do produto -->
-                    <img src="img/A_img/Senhor_Aneis.jpeg" class="card-img-top img-fluid" alt="livro1">
+                    <img src="img/Senhor_Aneis.jpeg" class="card-img-top img-fluid" alt="livro1" style="width:150px;">
                     <!-- Imagem do produto -->
                     <div class="card-body">
                         <!-- Corpo do cartão -->
@@ -260,7 +260,7 @@
             </div>
             <div class="col-12 col-md-4">
                 <div class="card">
-                    <img src="img/A_img/Menina_roubava_livros.jpeg" class="card-img-top img-fluid" alt="livro2">
+                    <img src="img/Menina_roubava_livros.jpeg" class="card-img-top img-fluid" alt="livro2" style="width:150px;">
                     <div class="card-body">
                         <p class="card-category">Ficção Histórica</p>
                         <h5 class="card-title">A menina que roubava livros</h5>
@@ -272,8 +272,8 @@
             </div>
             <div class="col-12 col-md-4">
                 <div class="card">
-                    <img src="img/A_img/Os_Miseraveis.jpeg" class="card-img-top img-fluid" alt="livro3">
-                    <div class="card-body">
+                    <img src="img/Os_Miseraveis.jpeg" class="card-img-top img-fluid" alt="livro3">
+                    <div class="card-body" style="width:150px;">
                         <p class="card-category">Romance</p>
                         <h5 class="card-title">Os Miseraveis</h5>
                         <p class="card-text">R$71.63</p>
@@ -284,7 +284,7 @@
             </div>
             <div class="col-12 col-md-4">
                 <div class="card">
-                    <img src="img/A_img/Reinacoes_Narizinho.jpeg" class="card-img-top img-fluid" alt="livro4">
+                    <img src="img/Reinacoes_Narizinho.jpeg" class="card-img-top img-fluid" alt="livro4">
                     <div class="card-body">
                         <p class="card-category">Fantasia</p>
                         <h5 class="card-title">Reinações de Narizinho</h5>
@@ -295,7 +295,7 @@
             </div>
             <div class="col-12 col-md-4">
                 <div class="card">
-                    <img src="img/A_img/Pequeno_Principe.jpeg" class="card-img-top img-fluid" alt="livro5">
+                    <img src="img/Pequeno_Principe.jpeg" class="card-img-top img-fluid" alt="livro5" style="width:150px;">
                     <div class="card-body">
                         <p class="card-category">Fantasia</p>
                         <h5 class="card-title">O pequeno Principe</h5>
@@ -307,11 +307,11 @@
             <br>
             <div class="col-12 col-md-4">
                 <div class="card">
-                    <img src="img/A_img/Nevoa_Floresta.jpeg" class="card-img-top img-fluid" alt="livro6">
+                    <img src="img/Nevoa_Floresta.jpeg" class="card-img-top img-fluid" alt="livro6">
                     <div class="card-body">
                         <p class="card-category">Fantasia</p>
                         <h5 class="card-title">A névoa da Floresta</h5>
-                        <p class="card-text">R$75.6o</p>
+                        <p class="card-text">R$75.60</p>
                         <button type="button" class="btn primary-color">Comprar</button>
                     </div>
                 </div>
