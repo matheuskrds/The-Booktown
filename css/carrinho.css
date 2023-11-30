@@ -1,0 +1,83 @@
+#cont {
+    background-color: rgb(241, 241, 241);
+    height: 350px;
+    border-radius: 4px;
+    padding: 15px;
+    display: flex;
+}
+
+/* titulo preço */
+.preco {
+    position: absolute;
+
+    margin-top: 300px;
+}
+
+
+/* imagem dos livros */
+.img-fluid {
+    height: 190px;
+    width: 190px;
+    margin-left: 60px;
+    margin-right: 10px;
+}
+
+
+
+
+
+/* mobile */
+.navbar-brand {
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+}
+
+/* mobile */
+#navbar-items {
+    justify-content: space-between;
+}
+
+/* mobile */
+#search-form,
+#news-form {
+    width: 100%;
+    margin: 2em 0;
+}
+
+/* para desktop */
+@media(min-width: 768px) {
+    .navbar-brand {
+        text-align: left;
+    }
+
+    #navbar-items {
+        display: flex;
+        min-width: 80%;
+    }
+
+    #search-form,
+    #news-form {
+        width: 50%;
+        margin: 0;
+    }
+}
+
+@media(max-width: 768px) {
+
+    .caixa {
+        display: flex;
+
+        width: 100%;
+
+        flex-direction: column;
+
+    }
+
+    .preco {
+        margin: 0;
+
+        margin-top: 300px;
+    }
+
+}
