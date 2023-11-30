@@ -77,12 +77,13 @@ include_once("templates/header.php");
                 </form>
                 <div class="col-md-12 mt-5 img-cadastro">
                     <div class="row align-items-center">
+                       
+                        <div class="col-12">
+                            <img src="img/A_img/logo.png" alt="Tela de cadastro" style="width:300px;height:300px;" class="img-fluid text-center">
+                        </div> 
                         <div class="col-12" id="link-container">
                             <a href="<?= $BASE_URL ?>login.php" class="link-danger text-center"><i class="bi bi-check-circle-fill"></i>
                                 Eu já tenho uma conta</a>
-                        </div>
-                        <div class="col-12">
-                            <img src="img/A_img/logo.png" alt="Tela de cadastro" style="width:300px;height:300px;" class="img-fluid text-center">
                         </div>
                     </div>
                 </div>
