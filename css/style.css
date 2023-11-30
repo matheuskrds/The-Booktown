@@ -77,7 +77,7 @@ body {
 }
 
 .msg.success {
-  color: #0F5132;
+  color: rgb(241, 248, 245);
   background-color: #D1E7DD;
   border-color: #BADBCC;
 }
@@ -799,6 +799,10 @@ label {
 
   #register-container{
     width: 340px;
+  }
+
+  .login-container {
+    width: 40vh;
   }
   
 }
