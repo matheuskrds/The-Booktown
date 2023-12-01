@@ -2,87 +2,106 @@
 <?php
 include_once("templates/header.php");
 ?>
+<!--INFOS PARA AJUDAR -->
+<!-- COL (define dinamicamente a largura para as colunas.)-->
+<!-- ROW (é necessário para que o espaçamento das extremidades do Grid funcionem sem erros.) -->
+<!-- mb (margin bottom para definir a margem da parte inferior) -->
+<!-- mt (margin top para definir a margem da parte superior) -->
+
+
+
+
+
+
 <!-- incluir o css -->
-<link rel="stylesheet" href="css/carrinho.css">
-<div class="cont">
-    <!-- container cinza para os livros -->
+    <link rel="stylesheet" href="carrinho.css">
+    <!-- container -->
+    <div class="container mt-5">
+        <h2><i class="bi bi-cart3"></i> Carrinho de compras</h2>
+        <hr>
 
-    <div class="container">
-        <h2>
-            <!-- titulo carrinho de compras e icone de carrinho -->
-            <i class="bi bi-cart3"></i> Carrinho de compras
-        </h2>
-    </div>
-
-    <hr>
-    <div class="container col-11 col-md-9 mt-5 mb-5" id="register-container">
-        <div class="row gx-5 caixa" id="cont">
-            <!-- simbolo de check -->
-            <div class="form-check prods d-flex align-items-center">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                <!-- imagem do livro -->
-                <img src="img/A_img/capa_1.jpeg" class="img-fluid" alt="livro-one-piece">
-                <h5 class="ms-3">One Piece vol. 103
-                    <br><br> Por Eiichiro Oda <br><br>
-                    Quantidade: 1
-                </h5>
-                <!-- titulo para o preço do livro -->
-                <h5 class="preco">R$ 44,90</h5>
-
-
+        <!-- PRIMEIRO LIVRO -->
+        <!-- id para o quadradao cinza -->
+        <div class="row mb-3"  id="registercontainer">
+            <div class="col-2">
+                <img src="img/capa_1.jpeg" class="img-fluid" alt="livro-one-piece">
+            </div>
+            <div class="col-6">
+                 <!-- titulo e autor do livro -->
+                <h3>One Piece vol. 103</h3>
+                <p>Por Eiichiro Oda</p>
+            </div>
+            <div class="col-2">
+                <!-- preço do livro -->
+                <p class="preco">R$ 44,90</p>
+            </div>
+            <div class="col-2">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked1" checked>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container col-11 col-md-9 mt-5 mb-5" id="register-container">
-        <div class="row gx-5 caixa" id="cont">
 
-
-
-
-            <div class="form-check prods d-flex align-items-center">
-                <label class="form-check-label" for="flexCheckChecked"></label>
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-
-                <img src="img/A_img/livro-infantil.jpg" class="img-fluid" alt="livro-marcelo-marmelo-martelo">
-                <h5 class="ms-3">Marcelo Marmelo Martelo
-                    <br> <br> Por Ruth Rocha <br><br>
-                    Quantidade: 1
-                </h5>
-                <h5 class="preco">R$ 39,90</h5>
-
-
-
-
+        <br>
+        <!-- SEGUNDO LIVRO -->
+        <div class="row mb-3"  id="registercontainer">
+            <div class="col-2">
+                <img src="img/livro-infantil.jpg" class="img-fluid" alt="livro-one-piece">
+            </div>
+            <div class="col-6">
+                <!-- titulo e autor do livro -->
+                <h3>Marcelo Marmelo Martelo</h3>
+                <p>Por Eiichiro Oda</p>
+            </div>
+            <div class="col-2">
+                <!-- preço do livro -->
+                <p class="preco">R$ 62,00</p>
+            </div>
+            <div class="col-2">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked1" checked>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container col-11 col-md-9 mt-5 mb-5" id="register-container">
-        <div class="row gx-5 caixa" id="cont">
-
-
-
-
-            <div class="form-check prods d-flex align-items-center">
-                <label class="form-check-label" for="flexCheckChecked"></label>
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-
-                <img src="img/A_img/jamboeditora-crianca-amaldicoada.png" class="img-fluid" alt="livro-harry-potter">
-                <h5 class="ms-3">Harry Potter e a Criança Amaldiçoada
-                    <br> <br> Por J.K. Rowling <br><br>
-                    Quantidade: 1
-                </h5>
-
-
-                <h5 class="preco">R$ 31,90</h5>
-
-
+        <br>
+        <!-- TERCEIRO LIVRO -->
+        <div class="row mb-3"  id="registercontainer">
+            <div class="col-2">
+                <img src="img/Reinacoes_Narizinho.jpeg" class="img-fluid" alt="livro-one-piece">
+            </div>
+            <div class="col-6">
+                 <!-- titulo e autor do livro -->
+                <h3>Reinações de Narizinho</h3>
+                <p>Por Monteiro Lobato</p>
+            </div>
+            <div class="col-2">
+                <p class="preco">R$ 39,99</p>
+            </div>
+            <div class="col-2">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked1" checked>
+                </div>
             </div>
         </div>
+        
+        <div class="total-items-container row mt-4">
+            <div class="">
+                <h5>Total:</h5>
+            </div>
+            <div class="">
+                <!-- preço total -->
+                <h5>R$ 106,9</h5> 
+            </div>
+        </div>
+        <div class="align-button-right row col-md-2">
+                <button type="button" class="btn btn-primary">Finalizar Compra</button>
+        </div>
+        <br>
     </div>
-</div>
 
+    <!-- Footer -->
+    <?php include_once("templates/footer.php"); ?>
 <!-- para incluir o footer -->
 <?php
 include_once("templates/footer.php");
 ?>
-

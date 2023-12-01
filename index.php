@@ -146,7 +146,7 @@
      <!-- Nome do produto -->
      <p class="card-text primary-color">R$54,38</p>
      <!-- Preço do produto -->
-     <a href="#" class="btn light-bg-color">Comprar</a>
+     <a href="detalhes_produto.php" class="btn light-bg-color">Comprar</a>
      <!-- Botão de compra -->
      </div>
    </div>
@@ -158,7 +158,7 @@
        <p class="card-category secondary-color">Livro</p>
        <h5 class="card-title primary-color">A biblioteca da meia noite</h5>
        <p class="card-text primary-color">R$50,39</p>
-       <a href="#" class="btn light-color">Comprar</a>
+       <a href="detalhes_produto2.php" class="btn light-color">Comprar</a>
      </div>
    </div>
  </div>

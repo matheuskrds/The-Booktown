@@ -585,7 +585,6 @@ body {
   margin: 2em auto; /* Margens superior e inferior automáticas e margem lateral 2em */
 }
 
-
 /* Galeria */
 #gallery .image-container {
   background-size: cover;
@@ -813,7 +812,8 @@ label {
   border-right: black solid 2px;
   width: 450px;
   height: 450px;
-  margin-top: 50px;
+  margin-top: 20px;
+
 }
 
 .detalhes{
@@ -822,9 +822,7 @@ label {
   border-bottom: black solid 2px;
   border-right: black solid 2px;
   width: 450px;
-  height: 300px;
-  margin-top: 50px;
-  margin-left: -13px;
+  height: 320px;
 }
 
 .detalhes2{
@@ -833,19 +831,63 @@ label {
   border-bottom: black solid 2px;
   border-right: black solid 2px;
   width: 450px;
-  height: 300px;
-  margin-top: 90px;
-  margin-left: -13px;
+  height: 370px;
+  margin-top: 20px;
+  
+}
+
+@media(max-width:768px){
+  .container-produto{
+    flex-wrap: wrap;
+  }
+
+  .img_produto{
+    width: 100%;
+    text-align: center;
+    
+  }
+
+  .bordinha , .detalhes , .detalhes2{
+    max-width: 350px;
+    margin: 0;
+  }
 }
 
 .description{
-  width: 400px;
+  width: 100%;
   font-size: 15px;
   text-align: start;
-  margin-left: 20px;
+  
 }
 
 /* PROFILE */
 .fullname{
   background-color: #508696;
+}
+
+/* CARRINHO DE COMPRAS */
+/* CARRINHO------------ */
+#registercontainer{
+  background-color: #cdcdcd;
+  border-radius: 10px;
+  height: 340px;
+  padding: 30px;    
+}
+
+.total-items-container{
+  display: flex;
+
+  text-align: right;
+  justify-content: right;
+}
+
+.align-button-right {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: auto;
+
+  align-self: flex-end;
+  justify-self: right;
+
 }

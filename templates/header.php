@@ -42,6 +42,7 @@ $userData = $userController->verifyToken(false);
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <!-- CSS personalizado-->
   <link rel="stylesheet" href="<?= $BASE_URL ?>css/style.css">
+  <link rel="stylesheet" href="<?= $BASE_URL ?>css/detalhes_produto2.css">
 
   <!-- JS BOOTSTRAP -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
@@ -53,7 +54,7 @@ $userData = $userController->verifyToken(false);
   <header>
 
     <!-- Inserindo navbar -->
-    <nav style="background-color: #C89F5F;" class="navbar navbar-expand-lg py-4 px-2" id="navbar">
+    <nav style="background-color: #C89F5F;" class="container-fluid navbar navbar-expand-lg py-4 px-2" id="navbar">
       <div class="container ">
         <!-- marca da loja -->
         <a class="navbar-brand" href="<?= $BASE_URL ?>index.php"><img class="logonav"
