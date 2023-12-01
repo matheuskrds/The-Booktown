@@ -23,7 +23,8 @@ include_once("templates/header.php");
                 <!-- imagem do livro -->
                 <img src="img/A_img/capa_1.jpeg" class="img-fluid" alt="livro-one-piece">
                 <h5 class="ms-3">One Piece vol. 103
-                    <br><br> Por Eiichiro Oda
+                    <br><br> Por Eiichiro Oda <br><br>
+                    Quantidade: 1
                 </h5>
                 <!-- titulo para o preço do livro -->
                 <h5 class="preco">R$ 44,90</h5>
@@ -44,9 +45,10 @@ include_once("templates/header.php");
 
                 <img src="img/A_img/livro-infantil.jpg" class="img-fluid" alt="livro-marcelo-marmelo-martelo">
                 <h5 class="ms-3">Marcelo Marmelo Martelo
-                    <br> <br> Por Ruth Rocha
+                    <br> <br> Por Ruth Rocha <br><br>
+                    Quantidade: 1
                 </h5>
-                <h5 class="preco">R$ 44,90</h5>
+                <h5 class="preco">R$ 39,90</h5>
 
 
 
@@ -66,7 +68,8 @@ include_once("templates/header.php");
 
                 <img src="img/A_img/jamboeditora-crianca-amaldicoada.png" class="img-fluid" alt="livro-harry-potter">
                 <h5 class="ms-3">Harry Potter e a Criança Amaldiçoada
-                    <br> <br> Por J.K. Rowling
+                    <br> <br> Por J.K. Rowling <br><br>
+                    Quantidade: 1
                 </h5>
 
 
@@ -82,3 +85,4 @@ include_once("templates/header.php");
 <?php
 include_once("templates/footer.php");
 ?>
+
