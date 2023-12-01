@@ -70,7 +70,7 @@ include_once("templates/header.php");
                 </h5>
 
 
-                <h5 class="preco">R$ 90,86</h5>
+                <h5 class="preco">R$ 31,90</h5>
 
 
             </div>
