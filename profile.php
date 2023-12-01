@@ -48,7 +48,7 @@
 
           <h1 class="page-title rounded fullname"><?= $fullName ?></h1>
 
-            <div id="profile-image-container" class="profile-image" style="background-image: url('<?= $BASE_URL ?>img/users/<?= $userData->image ?>')">
+            <div id="profile-image-container" class="profile-image" style="background-image: url('<?= $BASE_URL ?>img/users/<?= $userData->image ?>')"><img src="<?=$BASE_URL ?>img/users/<?= $userData->image.'' ?>" width="50px" height="50px">
             </div>
             <h3 class="about-title">Sobre:</h3>
             <?php if(!empty($userData->bio)): ?>
