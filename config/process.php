@@ -107,6 +107,7 @@
     $lastname = filter_input(INPUT_POST, "lastname");
     $email = filter_input(INPUT_POST, "email");
     $bio = filter_input(INPUT_POST, "bio");
+    $image = filter_input(INPUT_POST, "image");
 
     // Criar um novo objeto de usuário
     $user = new User();

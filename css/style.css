@@ -246,7 +246,7 @@ body {
 /* Item das linhas Slide 1 Mangaka*/
 
 #mangaka {
-  background-image: url(../img/A_img/fundo_banner2_dark.jpeg);
+  background-image: url(../img/fundo_banner2_dark.jpeg);
 
 }
 
@@ -287,7 +287,7 @@ body {
 
 /* Item das linhas Slide 2 */
 .item-line-cont-2 {
-  background-image: url(../img/A_img/fundo_banner1_dark.jpeg);
+  background-image: url(../img/fundo_banner1_dark.jpeg);
 }
 
 #item-line {
@@ -602,27 +602,27 @@ body {
 }
 
 #insta1 {
-  background-image: url('../img/A_img/insta1.jpg');
+  background-image: url('../img/insta1.jpg');
 }
 
 #insta2 {
-  background-image: url('../img/A_img/insta2.jpg');
+  background-image: url('../img/insta2.jpg');
 }
 
 #insta3 {
-  background-image: url('../img/A_img/insta3.jpg');
+  background-image: url('../img/insta3.jpg');
 }
 
 #insta4 {
-  background-image: url('../img/A_img/insta4.jpg');
+  background-image: url('../img/insta4.jpg');
 }
 
 #insta5 {
-  background-image: url('../img/A_img/insta5.jpg');
+  background-image: url('../img/insta5.jpg');
 }
 
 #insta6 {
-  background-image: url('../img/A_img/insta6.jpg');
+  background-image: url('../img/insta6.jpg');
 }
 
 /* Estilos para a SEÇÃO DE RODAPÉ */
@@ -829,4 +829,9 @@ label {
   font-size: 15px;
   text-align: start;
   margin-left: 20px;
+}
+
+/* PROFILE */
+.fullname{
+  background-color: #508696;
 }
