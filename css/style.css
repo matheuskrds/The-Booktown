@@ -827,6 +827,17 @@ label {
   margin-left: -13px;
 }
 
+.detalhes2{
+  border-top: black solid 2px;
+  border-left: black solid 2px;
+  border-bottom: black solid 2px;
+  border-right: black solid 2px;
+  width: 450px;
+  height: 300px;
+  margin-top: 90px;
+  margin-left: -13px;
+}
+
 .description{
   width: 400px;
   font-size: 15px;
