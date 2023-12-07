@@ -30,7 +30,7 @@ include_once("templates/header.php");
         <!-- Informações do Produto -->
 
         <div class="col-lg-4 col-md-12 col-sm-12 justify-content-center info-box">
-            <div class="bordinha col-lg-4 col-md-12 col-sm-5 mb-5 justify-content-center p-2">
+            <div class="bordinha col-lg-4 col-md-12 col-sm-5 mb-5 justify-content-center p-2 card light-color">
                 <!-- Nome -->
                 <p class="h2 mt-5" style="font-weight:500;">A biblioteca da meia noite</p>
                 <!-- Tipo do produto -->
@@ -50,9 +50,9 @@ include_once("templates/header.php");
                 <button class="add_carrinho mt-4 text-center btn" type="submit">Adicionar ao Carrinho</button>
                 <br><br>
             </div>
-            <div class="detalhes2 col-lg-4 col-md-12 col-sm-5 justify-content-center p-2">
-                <p class="h4 mt-3" style="font-weight:400;"> &nbsp; &nbsp;Descrição do produto
-            </p>
+            <div class="detalhes2 col-lg-4 col-md-12 col-sm-5 justify-content-center p-2 card light-color">
+                <p class="h4 mt-3" style="font-weight:400;">Descrição do produto
+                </p>
                 <p class="description mt-3 mb-4">
                     Aos 35 anos, Nora Seed é uma mulher cheia de talentos e poucas
                     conquistas. Arrependida das escolhas que fez no passado, ela vive se perguntando o que poderia ter

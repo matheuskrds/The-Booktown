@@ -29,9 +29,9 @@ include_once("templates/header.php");
 
         <!-- Informações do Produto -->
 
-        <div class="col-lg-4 col-md-12 col-sm-12 justify-content-center info-box">
+        <div class="col-lg-4 col-md-12 col-sm-12 justify-content-center  ">
             <!-- Nome -->
-            <div class="bordinha col-lg-4 col-md-12 col-sm-5 justify-content-center p-2">
+            <div class="bordinha col-lg-4 col-md-12 col-sm-5 justify-content-center p-2 card light-color">
                 <p class="h2 mt-5" style="font-weight:500;">Harry Potter E A Criança Amaldiçoada</p>
                 <!-- Tipo do produto -->
                 <p class="h4 mt-3" style="font-weight:400;">Fantasia</p>
@@ -47,14 +47,14 @@ include_once("templates/header.php");
                 <!-- Preço -->
                 <p class="h2 mt-3">R$31,90</p>
                 <!-- Adicionar ao Carrinho -->
-                <button class="add_carrinho mt-4 text-center btn" type="submit">Adicionar ao Carrinho</button>
+                <a href="<?=$BASE_URL?>carrinho.php" class="add_carrinho mt-4 text-center btn" type="submit">Adicionar ao Carrinho</a>
             </div>
 
 
             <br><br>
 
-            <div class="detalhes col-lg-4 col-md-12 col-sm-5 justify-content-center p-2">
-                <p class="h4 mt-3" style="font-weight:400;"> &nbsp; &nbsp;Descrição do produto:</p>
+            <div class="detalhes col-lg-4 col-md-12 col-sm-5 justify-content-center p-2 card light-color">
+                <p class="h4 mt-3" style="font-weight:400;">Descrição do produto:</p>
 
                 <p class="description mt-3 mb-4">Sempre foi difícil ser Harry Potter e não é mais fácil agora que ele é
                     um sobrecarregado funcionário do Ministério da Magia, marido e pai de três crianças em idade

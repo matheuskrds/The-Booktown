@@ -79,7 +79,7 @@ $userData = $userController->verifyToken(false);
                 <!-- Carrinho de Compras -->
                 <li class="nav-item">
                   <a href="<?= $BASE_URL ?>carrinho.php" class="nav-link bold">
-                    <i class="bi bi-cart"></i>
+                    <i class="bi bi-cart me-2"></i>Carrinho
                   </a>
                 </li>
                 <li class="nav-item">
@@ -119,7 +119,7 @@ $userData = $userController->verifyToken(false);
         </button>
         <ul class="navbar-nav mb-2 mb-lg-0 collapse navbar-collapse" id="bottom-navbar">
           <li class="nav-item second-nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="<?=$BASE_URL?>index.php">
               Home
             </a>
           </li>
