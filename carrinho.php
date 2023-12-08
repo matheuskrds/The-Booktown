@@ -36,6 +36,7 @@ include_once("templates/header.php");
                 <p class="preco h5">R$ 44,90</p>
             </div>
             <div class="col-2">
+                <!-- input de checkbox do bootstrap -->
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked1" checked>
                 </div>
@@ -58,6 +59,7 @@ include_once("templates/header.php");
                 <p class="preco h5">R$ 62,00</p>
             </div>
             <div class="col-2">
+                  <!-- input de checkbox do bootstrap -->
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked1" checked>
                 </div>
@@ -79,11 +81,12 @@ include_once("templates/header.php");
             </div>
             <div class="col-2">
                 <div class="form-check">
+                      <!-- input de checkbox do bootstrap -->
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked1" checked>
                 </div>
             </div>
         </div>
-        
+        <!-- preço total de itens to carrinho -->
         <div class="total-items-container row mt-4">
             <div class="">
                 <h5>Total:</h5>
@@ -93,14 +96,12 @@ include_once("templates/header.php");
                 <h5>R$ 106,90</h5> 
             </div>
         </div>
+        <!-- botao de finalizar compra  -->
         <div class="align-button-right row col-md-2">
                 <button type="button" class="btn btn-primary">Finalizar Compra</button>
         </div>
         <br>
     </div>
-
-    <!-- Footer -->
-    <?php include_once("templates/footer.php"); ?>
 <!-- para incluir o footer -->
 <?php
 include_once("templates/footer.php");
